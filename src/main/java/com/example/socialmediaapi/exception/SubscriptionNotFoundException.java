@@ -1,2 +1,7 @@
-package com.example.socialmediaapi.exception;public class SubscriptionNotFoundException {
+package com.example.socialmediaapi.exception;
+
+public class SubscriptionNotFoundException extends RuntimeException {
+    public SubscriptionNotFoundException(String message) {
+        super(message);
+    }
 }
